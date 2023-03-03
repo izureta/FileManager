@@ -1,0 +1,22 @@
+#pragma once
+#include <ncurses.h>
+
+enum colors {
+    INTERFACE_FRONT_COLOR = COLOR_BLUE,
+    INTERFACE_BACK_COLOR = COLOR_BLUE,
+    DIR_COLOR = COLOR_BLUE,
+    SYM_LINK_COLOR = COLOR_YELLOW,
+    FIFO_COLOR = COLOR_GREEN,
+    CURSOR_COLOR = COLOR_RED,
+};
+
+enum color_pairs {
+    INTERFACE_COLOR_PAIR,
+    DIR_COLOR_PAIR,
+    SYM_LINK_COLOR_PAIR,
+    FIFO_COLOR_PAIR,
+    CURSOR_COLOR_PAIR,
+    DEFAULT_COLOR_PAIR,
+};
+
+void init_colors();

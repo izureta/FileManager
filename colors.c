@@ -1,0 +1,11 @@
+#include "colors.h"
+
+void init_colors() {
+    init_pair(INTERFACE_COLOR_PAIR, INTERFACE_BACK_COLOR,
+              INTERFACE_FRONT_COLOR);
+    init_pair(DIR_COLOR_PAIR, DIR_COLOR, COLOR_BLACK);
+    init_pair(SYM_LINK_COLOR_PAIR, SYM_LINK_COLOR, COLOR_BLACK);
+    init_pair(FIFO_COLOR_PAIR, FIFO_COLOR, COLOR_BLACK);
+    init_pair(CURSOR_COLOR_PAIR, CURSOR_COLOR, COLOR_BLACK);
+    init_pair(DEFAULT_COLOR_PAIR, COLOR_WHITE, COLOR_BLACK);
+}
