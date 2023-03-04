@@ -1,10 +1,6 @@
 # FileManager
 Simple file manager made with ncurses library
 
-Сделал следующие пункты:
-Базовая часть.
-1, 2, 4, 5, 6, 7 из доп. части.
-
 How to build and run:
 ```
 mkdir build
