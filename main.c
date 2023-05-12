@@ -33,6 +33,7 @@ int main(int argc, char *argv[]) {
     state.hide_files = 0;
     state.file_count = 0;
     state.file_list = NULL;
+    state.buffer = NULL;
 
     state.lib_handle = dlopen("libextensions.so", RTLD_LAZY);
     if (!state.lib_handle) {
